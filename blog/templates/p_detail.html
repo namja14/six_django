@@ -1,0 +1,15 @@
+{% extends 'base.html' %}
+
+{% block content %}
+
+    
+<h1>자세한 내용을 알려주는 페이지입니다</h1>
+<br>
+<img src="{{p_details.image.url}}" height=300 >
+<br>
+
+<h1>{{p_details.title}}</h1>
+<br>
+<p>{{p_details.description}}</p>
+
+{%endblock%}
